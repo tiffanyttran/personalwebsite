@@ -1,3 +1,4 @@
+/* Style the background image */
 body {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
@@ -5,17 +6,16 @@ body {
   background-size: 100% 100%;
 }
 
-.grid-container {
+.header {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #FFFEFB;
   padding: 5px;
 }
-.grid-item {
+.header-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   font-size: 30px;
-  /*text-align: center;*/
 }
 
 /* Style the tab */
@@ -58,7 +58,6 @@ img {
   width: 200px;
   height: 200px;
 }
-
 .circle {
  border-radius: 50%;
  height: 200px;
@@ -77,15 +76,21 @@ img {
   text-indent:0;
 }
 
+/* Title */
 h1 {
   color: black;
   font-family:"Times New Roman", serif;
   font-style: normal;
   font-weight: bold;
-  text-decoration: none;
   font-size: 17pt;
+  padding-top: 5pt;
+  padding-left: 20pt;
+  text-indent: 0pt;
+  text-align: center;
+  text-decoration: none;
 }
 
+/* Contact bar */
 .s1 {
   color: #666;
   font-family:"Times New Roman", serif;
@@ -93,15 +98,45 @@ h1 {
   font-weight: normal;
   text-decoration: none;
   font-size: 10.5pt;
+  padding-top: 5pt;
+  padding-left: 20pt;
+  text-indent: 0pt;
+  text-align: center;
 }
 
+/* Bold text */
+h3 {
+  color: black;
+  font-family:"Times New Roman", serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+}
+
+/* Grey text */
 .s2 {
   color: #666;
-  font-family:"MS PGothic", sans-serif;
+  font-family:"Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  font-size: 10.5pt;
+  font-size: 11pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
+}
+
+/* Bullet points */
+.s3 {
+  padding-top: 2pt;
+  padding-left: 14pt;
+  text-indent: -9pt;
+  line-height: 119%;
+  text-align: left;
 }
 
 a {
@@ -113,6 +148,7 @@ a {
   font-size: 10.5pt;
 }
 
+/* Capitalized headers */
 h2 {
   color: black;
   font-family:"Times New Roman", serif;
@@ -120,24 +156,11 @@ h2 {
   font-weight: bold;
   text-decoration: none;
   font-size: 11pt;
-}
-
-.s3 {
-  color: #666;
-  font-family:"Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 11pt;
-}
-
-.s4 {
-  color: #666;
-  font-family:"MS PGothic", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 11pt;
+  padding-top: 20pt;
+  padding-bottom: 5pt;
+  padding-left: 5pt;
+  text-indent: 0pt;
+  text-align: left;
 }
 
 .p, p {
