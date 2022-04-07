@@ -8,9 +8,9 @@
 </head>
 
 <body>
-  <div class="grid-container">
-    <div class="grid-item" style="text-align: left;padding-left: 20pt;">Tiffany Tran</div>
-    <div class="grid-item" style=text-align: right>
+  <div class="header">
+    <div class="header-item" style="text-align: left;padding-left: 20pt;">Tiffany Tran</div>
+    <div class="header-item" style=text-align: right>
       <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'Contact')">CONTACT</button>
         <button class="tablinks" onclick="openTab(event, 'About')">ABOUT</button>
@@ -20,96 +20,73 @@
     </div>
   </div>
 
+  <!-- display:block sets the tab as default tab when page first loads -->
   <div id="Home" class="tabcontent" style="display:block; padding-top: 100pt;">
     <div class="circle">
-      <img src="me.jpg" alt="Tiffany">
+      <img src="me.jpg" alt="Tiffany Tran">
     </div>
-    <p class="s3" style="padding-top: 15pt;text-indent: 0pt;text-align: center;">Informatics Student at UCI</p>
+    <p class="s2" style="padding-top: 15pt;text-indent: 0pt;text-align: center;">Informatics Student at UCI</p>
   </div>
 
   <div id="Resume" class="tabcontent" style="background-color: #FFFEFB;">
     <!-- TITLE -->
-    <h1 style="padding-top: 5pt;padding-left: 20pt;text-indent: 0pt;text-align: center;">Tiffany Tran</h1>
+    <h1>Tiffany Tran</h1>
 
     <!-- CONTACT BAR -->
-    <p class="s1" style="padding-top: 5pt;padding-left: 20pt;text-indent: 0pt;text-align: center;">San Jose, California
-    <a href="mailto:tiffanytran41@gmail.com"
-    style=" color: #666; font-family:&quot;MS PGothic&quot;, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10.5pt;" target="_blank">・ </a>tiffanytran41@gmail.com
-    <span class="s2">・ </span>(408) 512-0370
-    <a href="http://www.linkedin.com/in/tiffanytran41"
-    style=" color: #666; font-family:&quot;MS PGothic&quot;, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10.5pt;" target="_blank">・ </a>
-    <a href="http://www.linkedin.com/in/tiffanytran41" target="_blank">https://www.linkedin.com/in/tiffanytran41</a>
-    </p>
+    <p class="s1">San Jose, California・ <a href="mailto:tiffanytran41@gmail.com">tiffanytran41@gmail.com</a> ・ (408) 512-0370 ・ <a href="http://www.linkedin.com/in/tiffanytran41" target="_blank">https://www.linkedin.com/in/tiffanytran41</a></p>
 
     <!-- EDUCATION -->
-    <h2 style="padding-top: 20pt; padding-bottom: 5pt; padding-left: 5pt;text-indent: 0pt;text-align: left;">EDUCATION</h2>
-    <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Intended Major: Informatics, Bachelor of Sciences</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">University of California, Irvine
-    <span class="s4">・ </span>Donald Bren School of Information &amp; CS
-    <span class="s4">・ </span>Expected Graduation: June 2023</p>
-    <h2 style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Associate in Arts in Liberal Arts with a Business &amp; CIS Emphasis</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">De Anza College
-    <span class="s4">・ </span>June 2021
-    <span class="s4">・ </span>GPA: 3.87
-    </p>
-    <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Associate in Science Transfer in Business Administration</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">De Anza College
-    <span class="s4">・ </span>June 2021
-    <span class="s4">・ </span>GPA: 3.87
-    </p>
+    <h2>EDUCATION</h2>
+    <h3>Intended Major: Informatics, Bachelor of Sciences</h3>
+    <p class="s2">University of California, Irvine ・ Donald Bren School of Information &amp; CS ・ Expected Graduation: June 2023</p>
+    <h3>Associate in Arts in Liberal Arts with a Business &amp; CIS Emphasis</h3>
+    <p class="s2">De Anza College ・ June 2021 ・ GPA: 3.87</p>
+    <h3>Associate in Science Transfer in Business Administration</h3>
+    <p class="s2">De Anza College ・ June 2021 ・ GPA: 3.87</p>
 
     <!-- ACCOMPLISHMENTS -->
-    <h2 style="padding-top: 20pt; padding-bottom: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">ACCOMPLISHMENTS</h2>
-    <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Magna Cum Laude</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">De Anza College <span class="s4">・ </span>June 25, 2021</p>
-    <h2 style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Dean’s List</h2>
-    <p class="s3" style="padding-bottom: 3pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">De Anza College <span class="s4">・ </span>Sept 23, 2019 - June 25, 2021</p>
+    <h2>ACCOMPLISHMENTS</h2>
+    <h3>Magna Cum Laude</h3>
+    <p class="s2">De Anza College ・ June 25, 2021</p>
+    <h3>Dean’s List</h3>
+    <p class="s2">De Anza College ・ Sept 23, 2019 - June 25, 2021</p>
 
     <!-- EXPERIENCE -->
-    <h2 style="padding-top: 20pt; padding-bottom: 5pt; padding-left: 5pt;text-indent: 0pt;text-align: left;">EXPERIENCE</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">April 2016 - PRESENT                       City of San Jose, Almaden Community Center</p>
-    <h2 style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Recreation Leader                                      <span class="p">Sept 2019 - PRESENT</span></h2>
+    <h2>EXPERIENCE</h2>
+    <p class="s2" style="padding-bottom: 3pt">April 2016 - PRESENT | City of San Jose, Almaden Community Center</p>
+    <h3>Recreation Leader<span class="s2"> Sept 2019 - PRESENT</span></h3>
     <ul id="l1"><li data-list-text="-">
-    <p style="padding-top: 2pt;padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Worked alongside supervisors and colleagues throughout the day to maintain clear communication of safety and implement multiple activities for dozens of children.</p></li>
-    <li data-list-text="-">
-    <p style="padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Responsible for maintaining city policies and safety protocols, directing volunteers, managing time, encouraging teamwork, and utilizing communication skills to lead multiple groups of children ages 3-12.</p>
-    <h2 style="padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Community Service Aide                                  <span class="p">April 2016 - Sept 2019</span></h2></li>
-    <li data-list-text="-">
-    <p style="padding-top: 2pt;padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Duties included activity planning and preparation for a variety of camps along with assisting with the teaching component of the class to create a safe, fun environment for interaction and rapport building.</p></li>
-    <li data-list-text="-">
-    <p style="padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Worked in conjunction with management to assist with year round activities for the center such as the Fall Festival, Viva la Calle, Neighbor Nights, etc.</p>
-    <p class="s3" style="padding-top: 10pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">May 2018 - April 2019                                HS Mixers LLC, San Jose CA</p>
-    <h2 style="padding-top: 2pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Chief Information Officer                                <span class="p">August 2018 - April 2019</span></h2></li>
-    <li data-list-text="-">
-    <p style="padding-top: 2pt;padding-left: 14pt;text-indent: -9pt;text-align: left;">Liaison with senior management and founders to encourage contribution of ideas from a diverse coworker pool.</p></li>
-    <li data-list-text="-">
-    <p style="padding-top: 2pt;padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Demonstrated attention to detail, organizational strength, and advanced skills in communication to coordinate successful and safe events.</p></li>
-    <li data-list-text="-">
-    <p style="padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Responsible for contacting venues, marketing, running the website, and communicating with security and insurance companies in order to maintain the highest level of safety at events for attendees.</p>
-    <h2 style="padding-left: 5pt;text-indent: 0pt;line-height: 13pt;text-align: left;">Intern                                            <span class="p">May 2018 - August 2018</span></h2></li>
-    <li data-list-text="-">
-    <p style="padding-top: 2pt;padding-bottom: 4pt;padding-left: 14pt;text-indent: -9pt;line-height: 119%;text-align: left;">Obtained the opportunity to learn from officers of the company in order to gain insight into the business world and assist with marketing through different media platforms.</p>
+    <p class="s3">Worked alongside supervisors and colleagues throughout the day to maintain clear communication of safety and implement multiple activities for dozens of children.</p></li>
+    <li data-list-text="-"><p class="s3">Responsible for maintaining city policies and safety protocols, directing volunteers, managing time, encouraging teamwork, and utilizing communication skills to lead multiple groups of children ages 3-12.</p>
+    <h3>Community Service Aide<span class="s2"> April 2016 - Sept 2019</span></h3></li>
+    <li data-list-text="-"><p class="s3">Duties included activity planning and preparation for a variety of camps along with assisting with the teaching component of the class to create a safe, fun environment for interaction and rapport building.</p></li>
+    <li data-list-text="-"><p class="s3">Worked in conjunction with management to assist with year round activities for the center such as the Fall Festival, Viva la Calle, Neighbor Nights, etc.</p></li>
+    <p class="s2" style="padding-top: 10pt; padding-bottom: 3pt">May 2018 - April 2019 | HS Mixers LLC, San Jose CA</p>
+    <h3>Chief Information Officer<span class="s2"> August 2018 - April 2019</span></h3>
+    <li data-list-text="-"><p class="s3">Liaison with senior management and founders to encourage contribution of ideas from a diverse coworker pool.</p></li>
+    <li data-list-text="-"><p class="s3">Demonstrated attention to detail, organizational strength, and advanced skills in communication to coordinate successful and safe events.</p></li>
+    <li data-list-text="-"><p class="s3">Responsible for contacting venues, marketing, running the website, and communicating with security and insurance companies in order to maintain the highest level of safety at events for attendees.</p>
+    <h3>Intern<span class="s2"> May 2018 - August 2018</span></h3></li>
+    <li data-list-text="-"><p class="s3">Obtained the opportunity to learn from officers of the company in order to gain insight into the business world and assist with marketing through different media platforms.</p>
 
     <!-- ADDITIONAL INFORMATION -->
-    <h2 style="padding-top: 20pt;padding-bottom: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">ADDITIONAL INFORMATION</h2>
-    <p style="text-indent: 0pt;line-height: 1pt;text-align: left;"/></li>
-    <li data-list-text="-"><h2 style="padding-left: 14pt;text-indent: -9pt;text-align: left;">Skills<span class="p">: Proficient in Python, Java, Microsoft Office 365, and Google Suite.</span></h2></li>
-    <li data-list-text="-"><h2 style="padding-top: 2pt;padding-left: 14pt;text-indent: -9pt;text-align: left;">Languages<span class="p">: Fluent in English and Vietnamese.</span></h2></li>
-    </ul>
+    <h2>ADDITIONAL INFORMATION</h2>
+    <li data-list-text="-"><h3>Skills<span class="p">: Proficient in Python, Java, Microsoft Office 365, and Google Suite.</span></h3></li>
+    <li data-list-text="-"><h3>Languages<span class="p">: Fluent in English and Vietnamese.</span></h3></li>
     <br><br><br><br><br><br>
   </div>
 
   <div id="About" class="tabcontent">
-    <h2 style="padding-top: 20pt; padding-bottom: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">About Me</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Passionate student studying Informatics at UC Irvine, hoping to increase experience in the field through obtaining an internship opportunity.</p>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Experienced Recreation Lead with a demonstrated history of working in the government administration industry.</p>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Skilled in Python, Java, English, communication, and leadership.</p>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">Strong community and social services professional, studying the field of Informatics focused in Human Computer Interaction from UC Irvine.</p>
+    <h2>About Me</h2>
+    <p class="s2">Passionate student studying Informatics at UC Irvine, hoping to increase experience in the field through obtaining an internship opportunity.</p>
+    <p class="s2">Experienced Recreation Lead with a demonstrated history of working in the government administration industry.</p>
+    <p class="s2">Skilled in Python, Java, English, communication, and leadership.</p>
+    <p class="s2">Strong community and social services professional, studying the field of Informatics focused in Human Computer Interaction from UC Irvine.</p>
   </div>
 
   <div id="Contact" class="tabcontent">
-    <h2 style="padding-top: 20pt; padding-bottom: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Contact Me</h2>
-    <p class="s3" style="padding-left: 5pt;text-indent: 0pt;text-align: left;">P: 408.512.0370</p>
+    <h2>Contact Me</h2>
+    <p class="s2">P: 408.512.0370</p>
   </div>
 
   <script>
@@ -127,7 +104,5 @@
     evt.currentTarget.className += " active";
   }
   </script>
-
 </body>
-
 </html>
