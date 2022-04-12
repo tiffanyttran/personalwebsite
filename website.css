@@ -6,6 +6,21 @@ body {
   background-size: 100% 100%;
 }
 
+.center {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  border: 3px solid #F9F5EB;
+  padding: 5px;
+  background-color: white;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .header {
   display: grid;
   grid-template-columns: auto auto;
@@ -13,7 +28,19 @@ body {
   padding: 5px;
 }
 .header-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #FFFEFB;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #FFFEFB;
+  padding: 100px;
+}
+.contact-item {
+  background-color: white;
   padding: 10px;
   font-size: 30px;
 }
@@ -70,20 +97,26 @@ img {
  margin-right: auto;
 }
 
+.img1 {
+  float: right;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
 * {
   margin:0;
   padding:0;
   text-indent:0;
 }
 
-/* Title */
+/* Resume title */
 h1 {
   color: black;
   font-family:"Times New Roman", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17pt;
-  padding-top: 5pt;
+  padding-top: 10pt;
   padding-left: 20pt;
   text-indent: 0pt;
   text-align: center;
