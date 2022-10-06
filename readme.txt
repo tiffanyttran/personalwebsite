@@ -1,4 +1,4 @@
-# Assignment: portfolio website
+# Assignment: A1 Reponsive Portfolio in HTML and CSS
 # Date started: Feb 2022
 
 *** 1. The number of assignment points you believe you have completed ***
