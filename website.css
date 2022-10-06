@@ -206,6 +206,22 @@ h2 {
   margin:0pt;
 }
 
+ul {
+  list-style-type: "- ";
+  padding-left: 20px;
+  /*text-indent: -5px;*/
+}
+
+ul li:before {
+  color: black;
+  font-family:"Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11pt;
+}
+
+/*
 li {
   display: block;
 }
@@ -223,3 +239,4 @@ li {
   text-decoration: none;
   font-size: 11pt;
 }
+*/
