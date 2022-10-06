@@ -46,3 +46,13 @@ It took me about two days to adjust the portfolio and solve all the errors that 
 I did not consult with any individuals or classmates with this assignment.
 
 
+Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead
+Because width attributes does not use % it uses digits like width='100', means 100px. if you want to apply 100% width on image, use CSS
+Oct 5, 2022
+The frameborder attribute on the iframe element is obsolete - Google Search
+Oct 5, 2022
+CSS: top: only 0 can be a unit. You must put a unit after your number
+Oct 5, 2022
+Element h3 not allowed as child of element ul in this context.
+
+Add more comments in code
