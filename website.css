@@ -1,4 +1,4 @@
-/* Style the background image */
+/* style the background image */
 body {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
@@ -6,6 +6,29 @@ body {
   background-size: 100% 100%;
 }
 
+/* style name of header */
+.header-item {
+  background-color: #FFFEFB;
+  padding: 10px;
+  font-size: 30px;
+}
+
+/* style display of tab/navigation bar */
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #FFFEFB;
+  padding: 5px;
+}
+
+/* style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #FFFEFB;
+  background-color: #FFFEFB;
+}
+
+/* style "About" container */
 .center {
   text-align: center;
   margin: auto;
@@ -15,44 +38,29 @@ body {
   background-color: white;
 }
 
+/* prevent overflow outside of its container */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: #FFFEFB;
-  padding: 5px;
-}
-.header-item {
-  background-color: #FFFEFB;
-  padding: 10px;
-  font-size: 30px;
-}
-
+/* style table for contact items */
 .contact {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #FFFEFB;
   padding: 100px;
 }
+
+/* style items in table */
 .contact-item {
   background-color: white;
   padding: 10px;
   font-size: 30px;
 }
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #FFFEFB;
-  background-color: #FFFEFB;
-}
-
-/* Style the buttons that are used to open the tab content */
+/* style the buttons that are used to open the tab content */
 .tab button {
   background-color: #FFFEFB;
   float: right;
@@ -63,29 +71,24 @@ body {
   transition: 0.3s;
 }
 
-/* Change background color of buttons on hover */
+/* change background color of buttons on hover */
 .tab button:hover {
   background-color: #F9F5EB;
 }
 
-/* Create an active/current tablink class */
+/* create an active/current tablink class */
 .tab button.active {
   background-color: #FFFEFB;
 }
 
-/* Style the tab content */
+/* style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border-top: none;
 }
 
-iframe {
-  width:100%;
-  height:100%;
-  border:0px;
-}
-
+/* style Home page image */
 img {
   display: block;
   width: 200px;
@@ -103,16 +106,23 @@ img {
  margin-right: auto;
 }
 
+/* style image on About page */
 .img1 {
   float: right;
   padding: 20px;
   padding-bottom: 30px;
 }
-
 * {
   margin:0;
   padding:0;
   text-indent:0;
+}
+
+/* style iFrame on Essays page */
+iframe {
+  width:100%;
+  height:100%;
+  border:0px;
 }
 
 /* Resume title */
@@ -129,7 +139,7 @@ h1 {
   text-decoration: none;
 }
 
-/* Contact bar */
+/* style contact information on Resume */
 .s1 {
   color: #666;
   font-family:"Times New Roman", serif;
@@ -178,6 +188,7 @@ h3 {
   text-align: left;
 }
 
+/* style hyperlinks */
 a {
   color: #666;
   font-family:"Times New Roman", serif;
@@ -187,7 +198,7 @@ a {
   font-size: 10.5pt;
 }
 
-/* Capitalized headers */
+/* capitalized headers */
 h2 {
   color: black;
   font-family:"Times New Roman", serif;
@@ -202,6 +213,7 @@ h2 {
   text-align: left;
 }
 
+/* style paragraphs */
 .p, p {
   color: black;
   font-family:"Times New Roman", serif;
@@ -212,12 +224,12 @@ h2 {
   margin:0pt;
 }
 
+/* style dashed list in Resume */
 ul {
   list-style-type: "- ";
   padding-left: 20px;
   /*text-indent: -5px;*/
 }
-
 ul li:before {
   color: black;
   font-family:"Times New Roman", serif;
@@ -227,22 +239,3 @@ ul li:before {
   font-size: 11pt;
 }
 
-/*
-li {
-  display: block;
-}
-
-#l1 {
-  padding-left: 0pt;
-}
-
-#l1> li>*:first-child:before {
-  content: "- ";
-  color: black;
-  font-family:"Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 11pt;
-}
-*/
