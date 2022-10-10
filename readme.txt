@@ -24,22 +24,15 @@
 - Multiple pages, with appropriate navigation between them using tabs
 - Modifying padding and margins to indent content and enhance readability
 - Modifying link and text color to be visually appealing
-- Creating a table with multiple columns and rows which can be read via a screen reader
+- Creating a table with multiple columns and rows
 - Creating a more complex page layout, including a navigation bar
+- Embedding a webpage 
 
 
 
 *** 3. How long it took you to complete the assignment ***
 It took me a few weeks to create the majority of the website as I had to self learn html and css a few months back. 
-It took me about three days to adjust the portfolio and solve all the errors that were revealed through the validity and accessibility checkers. 
-Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead
-Because width attributes does not use % it uses digits like width='100', means 100px. if you want to apply 100% width on image, use CSS
-Oct 5, 2022
-The frameborder attribute on the iframe element is obsolete - Google Search
-Oct 5, 2022
-CSS: top: only 0 can be a unit. You must put a unit after your number
-Oct 5, 2022
-Element h3 not allowed as child of element ul in this context.
+It took me about three days to adjust the portfolio and solve all the errors that were revealed through the validity and accessibility checkers. The CSS and accessibility checker passed without needing code adjustments. I bumped into about twenty errors when using the html checker. Many of the errors were associated with my code for my dashed list on my resume page. I had to rewrite the code since it showed me issues with "Element h3 not allowed as child of element ul in this context". After fixing the list issues, I had resolved a majority of the errors and were left with some quick adjustments. When using iframe, I styled it directly in the index file. I wanted to use a percentage for the size of the embedded webpage and so the value of 100% was a bad value for the attribute as it expected a digit but got a "%" instead. To fix this, I added the iframe styling into my CSS file instead. The rest of the minor issues were forgetting the units of "px" on some of the attributes so those were a quick fix. 
 
 
 
