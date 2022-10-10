@@ -31,21 +31,7 @@
 
 *** 3. How long it took you to complete the assignment ***
 It took me a few weeks to create the majority of the website as I had to self learn html and css a few months back. 
-It took me about two days to adjust the portfolio and solve all the errors that were revealed through the validity and accessibility checkers.
-
-
-
-*** 4. A list of urls of the online resources you consulted ***
-  https://www.w3schools.com/html/default.asp - used to learn html
-  https://www.w3schools.com/css/default.asp - used to learn css
-  https://www.w3schools.com/howto/howto_js_tabs.asp - building tabs using javascript
-  
-
-
-*** 5. A list of classmates or other individuals you consulted ***
-I did not consult with any individuals or classmates with this assignment.
-
-
+It took me about three days to adjust the portfolio and solve all the errors that were revealed through the validity and accessibility checkers. 
 Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead
 Because width attributes does not use % it uses digits like width='100', means 100px. if you want to apply 100% width on image, use CSS
 Oct 5, 2022
@@ -55,4 +41,17 @@ CSS: top: only 0 can be a unit. You must put a unit after your number
 Oct 5, 2022
 Element h3 not allowed as child of element ul in this context.
 
-Add more comments in code
+
+
+*** 4. A list of urls of the online resources you consulted ***
+  https://www.w3schools.com/html/default.asp - used to learn html
+  https://www.w3schools.com/css/default.asp - used to learn css
+  https://www.w3schools.com/howto/howto_js_tabs.asp - building tabs using javascript
+  https://www.w3schools.com/html/html_iframe.asp - embedding webpage using iFrame
+  https://www.w3schools.com/howto/howto_css_clearfix.asp - using clearfix to prevent overflow in a container
+  
+
+
+*** 5. A list of classmates or other individuals you consulted ***
+I did not consult with any individuals or classmates with this assignment.
+
