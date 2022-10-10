@@ -50,7 +50,8 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #FFFEFB;
-  padding: 100px;
+  align-content: center;
+  padding: 75px;
 }
 
 /* style items in table */
@@ -109,8 +110,10 @@ img {
 /* style image on About page */
 .img1 {
   float: right;
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 10px;
+  padding-bottom: 20px;
+  height: 150px;
+  width: 150px;
 }
 * {
   margin:0;
