@@ -12,18 +12,23 @@
 - 1/1 Includes an advanced feature (1 point)
 - 3/3 Responsive layout (3 points)
 - 1/1 Passes three validation checks (1 points)
-- 2/2 Embracing the spirit of the assignment (2+1 points)
+- 2/2 Embracing the spirit of the assignment (2 points)
 
 
 
-*** 2. A list containing the basic HTML content, CSS styling, and advanced feature you included in your portfolio ***
+*** 2. A list containing the (a) basic HTML content, (b) CSS styling, and (c) advanced feature you included in your portfolio ***
 
+(a)
 - Two profile images, with descriptive alt attributes, and two background images
 - Appropriate headings and paragraph text
 - Links to external pages
 - Multiple pages, with appropriate navigation between them using tabs
+
+(b)
 - Modifying padding and margins to indent content and enhance readability
 - Modifying link and text color to be visually appealing
+
+(c)
 - Creating a table with multiple columns and rows
 - Creating a more complex page layout, including a navigation bar
 - Embedding a webpage 
@@ -58,3 +63,5 @@ In addition to the checkers, I reached out to the TA for input on the portfolio 
 *** 5. A list of classmates or other individuals you consulted ***
 I did not consult with any individuals or classmates with this assignment.
 
+*** 6. Is there anything special we need to know in order to run your code? ***
+N/A
