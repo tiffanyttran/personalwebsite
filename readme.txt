@@ -63,5 +63,7 @@ In addition to the checkers, I reached out to the TA for input on the portfolio 
 *** 5. A list of classmates or other individuals you consulted ***
 I did not consult with any individuals or classmates with this assignment.
 
+
+
 *** 6. Is there anything special we need to know in order to run your code? ***
 N/A
